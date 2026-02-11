@@ -23,6 +23,7 @@ namespace Project01_TaskManager
                 string choice = Console.ReadLine();
 
                 switch (choice)
+
                 {
                     case "1":
                         manager.AddTask();
