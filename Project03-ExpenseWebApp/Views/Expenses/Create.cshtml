@@ -1,0 +1,31 @@
+﻿@model Project03_ExpenseWebApp.Models.Expense
+
+<h2>Add Expense</h2>
+
+<form asp-action="Create" method="post">
+
+    <div>
+        <label>Title</label>
+        <input asp-for="Title" />
+    </div>
+
+    <div>
+        <label>Amount</label>
+        <input asp-for="Amount" />
+    </div>
+
+    <div>
+        <label>Category</label>
+        <input asp-for="Category" />
+    </div>
+
+    <div>
+        <label>Date</label>
+        <input asp-for="Date" type="date" />
+    </div>
+
+    <br />
+
+    <button type="submit">Save</button>
+
+</form>
