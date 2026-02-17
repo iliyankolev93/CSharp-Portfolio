@@ -35,5 +35,5 @@ git clone https://github.com/iliyankolev93/CSharp-Portfolio.git
 3. Run the application (Ctrl + F5)
 
 ## Author
-Iliyan Kolev
+Iliyan Kolev 
 GitHub: https://github.com/iliyankolev93
