@@ -1,13 +1,10 @@
-# 📝 Task Manager Console App (C#)
+# Task Manager Console App (C#)
 
 A simple console-based Task Manager application written in C#.
 
-This project allows users to manage their daily tasks directly from the command line.
+This project demonstrates basic programming concepts and file handling.
 
----
-
-## 🚀 Features
-
+## Features
 - Add new tasks
 - View all tasks
 - Delete tasks
@@ -15,10 +12,7 @@ This project allows users to manage their daily tasks directly from the command 
 - Save tasks to file
 - Load tasks on startup
 
----
-
-## 💻 Technologies Used
-
+## Technologies
 - C#
 - .NET
 - Console Application
@@ -26,40 +20,20 @@ This project allows users to manage their daily tasks directly from the command 
 - Object-Oriented Programming (OOP)
 - Git & GitHub
 
----
+## Project Structure
+- Program.cs - Application entry point
+- Task.cs - Task model
+- TaskManager.cs - Task management logic
+- FileManager.cs - File saving and loading
 
-## 📂 Project Structure
-
-- Program.cs – Application entry point  
-- Task.cs – Task model  
-- TaskManager.cs – Task logic and management  
-- FileManager.cs – File saving/loading  
-
----
-
-## ▶️ How to Run
-
+## How to Run
 1. Clone the repository:
-
-git clone https://github.com/iliyankolev93/CSharp-Portfolio.git
-
-
-2. Open the project in Visual Studio  
+```bash
+git clone https://github.com/iliyankolev93/CSharp-Portfolio.git 
+```
+2. Open the project in Visual Studio
 3. Run the application (Ctrl + F5)
 
----
-
-## 🎯 Future Improvements
-
-- Edit task functionality
-- Task priorities
-- Due dates
-- JSON data storage
-- GUI version
-
----
-
-## 👨‍💻 Author
-
-Created by: Iliyan Kolev  
+## Author
+Iliyan Kolev
 GitHub: https://github.com/iliyankolev93
